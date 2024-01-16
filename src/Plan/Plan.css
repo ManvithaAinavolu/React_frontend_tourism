@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+#plan-your-trip {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+#plan-your-trip .text{
+    color:rgb(62, 31, 62);
+    padding:20px 25px;
+    font: bolder;
+    font-size: 30px;
+    font-family:cursive;
+    
+}
+
+.trip-step {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-step h3 {
+    color: #007BFF;
+    font-size: 25px;
+    padding:20px 25px;    
+    font-family:cursive;
+
+}
+
+.trip-step p {
+    color: #333;
+    font-size: 20px;
+    font:bold;
+    font-family:cursive;
+
+}
+
+.trip-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.trip-images img {
+    width: 200px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
